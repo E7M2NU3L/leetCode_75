@@ -1,0 +1,20 @@
+{
+  "name": "leetcode_typescript",
+  "version": "1.0.0",
+  "description": "This is a simple typescript project where i can run my leetcode problems with typescript",
+  "main": "main.js",
+  "scripts": {
+    "build" : "tsc",
+    "dev" : "npm run build && node dist/main.js"
+  },
+  "keywords": [
+    "Typescript",
+    "OOPS",
+    "Leetcode"
+  ],
+  "author": "Emmanuel_A",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
